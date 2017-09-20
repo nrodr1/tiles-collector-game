@@ -41,7 +41,7 @@ div.header, div.instructions{
 .tiles{
 	clear: both;
 }
-.gemImage{
+.tileImage{
 	height: 60px;
 	margin: 10px;
 }

@@ -1,4 +1,4 @@
-$( document ).ready(function(){
+$(document).ready(function(){
   var Random=Math.floor(Math.random()*101+19)
 
 
@@ -57,3 +57,56 @@ alert ("Bummer! You lost!");
   $('#numberLosses').text(losses);
   reset()
 }
+
+
+
+//New tiles
+
+  $('#grange').on ('click', function(){
+    userTotal = userTotal + num1;
+    console.log("New userTotal= " + userTotal);
+    $('#finalTotal').text(userTotal); 
+          //sets win/lose conditions
+        if (userTotal == Random){
+          yay();
+        }
+        else if ( userTotal > Random){
+          loser();
+        }   
+  })  
+  $('#grove').on ('click', function(){
+    userTotal = userTotal + num2;
+    console.log("New userTotal= " + userTotal);
+    $('#finalTotal').text(userTotal); 
+        if (userTotal == Random){
+          yay();
+        }
+        else if ( userTotal > Random){
+          loser();
+        } 
+  })  
+  $('#pivot').on ('click', function(){
+    userTotal = userTotal + num3;
+    console.log("New userTotal= " + userTotal);
+    $('#finalTotal').text(userTotal);
+//sets win/lose conditions
+          if (userTotal == Random){
+          yay();
+        }
+        else if ( userTotal > Random){
+          loser();
+        } 
+  })  
+  $('#terrain').on ('click', function(){
+    userTotal = userTotal + num4;
+    console.log("New userTotal= " + userTotal);
+    $('#finalTotal').text(userTotal); 
+      
+          if (userTotal == Random){
+          yay();
+        }
+        else if ( userTotal > Random){
+          loser();
+        }
+  });   
+}); 

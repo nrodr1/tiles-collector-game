@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Tiles Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<h1>Tiles Collector</h1>
+	</div>
+	<div class="instructions">
+		<h3>Rules to The Game</h3>
+		</br>
+		<p>You will be given a random number at the start of the game.<span>"Number To Get"</span></p>
+		<br><br>
+		<p>There are four tile patterns below:
+			<ul>
+				<li id="grange">- Grange</li>
+				<li id="grove">- Grove</li>
+				<li id="pivot">- Pivot</li>
+				<li id="terrain">- Terrain</li>
+			</ul>
+		</p>
+		<br><br>
+		<p>By clicking on a tile, you will add a specific amount of points to your total score.
+		<br><br>
+		You win the game by matching your total score to the random number.
+		<br><br>
+		You lose the game if your total score goes above the random number.
+		<br><br>
+		The value of each tile is hidden from you until you click on it.
+		<br><br>
+		Everytime the game restarts, the values of each tile will change.
+		</p>
+	</div>
+	<div class="numberToMatch">
+		<h2>Number To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="tiles">
+		<img src="assets/images/3grange.jpg" class=gemImage id="grange" alt="Grange tile pattern">
+		<img src="assets/images/3grove.jpg" class=gemImage id="grove" alt="Grove tile pattern">
+		<img src="assets/images/3pivot.jpg" class=gemImage id= "pivot" alt="Pivot tile pattern">
+		<img src="assets/images/3terrain.jpg" class=gemImage id= "terrain" alt="Terrain tile pattern">
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+</html>

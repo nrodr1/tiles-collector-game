@@ -1,0 +1,61 @@
+/* Overall Elements*/
+body{
+	background-image: url("../images/background-option3.png");
+	font-family: 'Overpass', sans-serif;
+}
+div{
+	background-color: ;
+	margin: 10px;
+	width: 25%
+	border: solid 2px black;
+	padding: 10px;
+}
+h1, h3, span{
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+
+
+/*Elements specific to page*/
+div.header, div.tiles{
+	background-color: #;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+
+
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.tiles{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+
+
+/* IDs */
+#grange{
+	color: #;
+}
+#grove{
+	color: #;
+}
+#pivot{
+	color: #;
+}
+#terrain{
+	color: #;
+}

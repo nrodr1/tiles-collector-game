@@ -4,7 +4,8 @@ body{
 	font-family: 'Overpass', sans-serif;
 }
 div{
-	background-color: ;
+	background-color: white;
+	opacity: .75;
 	margin: 10px;
 	width: 25%
 	border: solid 2px black;
@@ -20,7 +21,7 @@ h1{
 
 /*Elements specific to page*/
 div.header, div.tiles{
-	background-color: #;
+	background-color: white;
 }
 div.header, div.instructions{
 	width: 50%;

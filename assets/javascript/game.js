@@ -62,11 +62,13 @@ alert ("Bummer! You lost!");
 
 //New tiles
 
-  $('#grange').on ('click', function(){
+  $('#grange').on('click', function(){
     userTotal = userTotal + num1;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 
-          //sets win/lose conditions
+ 
+ //Win/Lose conditions
+
         if (userTotal == Random){
           yay();
         }
@@ -74,7 +76,7 @@ alert ("Bummer! You lost!");
           loser();
         }   
   })  
-  $('#grove').on ('click', function(){
+  $('#grove').on('click', function(){
     userTotal = userTotal + num2;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 
@@ -85,11 +87,13 @@ alert ("Bummer! You lost!");
           loser();
         } 
   })  
-  $('#pivot').on ('click', function(){
+  $('#pivot').on('click', function(){
     userTotal = userTotal + num3;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal);
-//sets win/lose conditions
+
+//Win/Lose conditions
+
           if (userTotal == Random){
           yay();
         }
@@ -97,7 +101,7 @@ alert ("Bummer! You lost!");
           loser();
         } 
   })  
-  $('#terrain').on ('click', function(){
+  $('#terrain').on('click', function(){
     userTotal = userTotal + num4;
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 

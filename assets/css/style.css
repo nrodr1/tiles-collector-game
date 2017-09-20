@@ -32,6 +32,7 @@ div.header, div.instructions{
 	float: left;
 	width: 15%;
 	height: 60px;
+	font-weight: bold;
 }
 .userTotal{
 	width: 15%;
